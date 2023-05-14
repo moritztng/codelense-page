@@ -11,7 +11,7 @@ export default function Home() {
         </p>
       </div>
       <div className="z-10 w-full max-w-3xl items-center justify-between">
-        <video autoPlay loop muted>
+        <video autoPlay loop muted disableRemotePlayback>
           <source
             src="https://storage.googleapis.com/assets-codelense/video.mp4"
             type="video/mp4"
