@@ -6,14 +6,14 @@ export default function Home() {
       <div className="z-10 flex flex-col w-full items-center justify-between gap-6">
         <h1 className="text-3xl">Analyzing the Worlds Software on GitHub</h1>
         <p className="text-md">
-          We track millions of projects every day and provide you with insights.{' '}
+          We track millions of projects every day and extract the signal.{' '}
           <br></br> Get notified when the next breakthrough emerges.
         </p>
       </div>
       <div className="z-10 w-full max-w-3xl items-center justify-between">
         <video autoPlay loop muted>
           <source
-            src="https://storage.googleapis.com/assets-telescope/video.mp4"
+            src="https://storage.googleapis.com/assets-codelense/video.mp4"
             type="video/mp4"
           />
         </video>
